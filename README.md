@@ -1,18 +1,17 @@
 # Laravel Multi Auth
 
 - **Laravel**: 5.6/5.7
-- **Author**: Bitfumes
-- **Author Homepage**: https://bitfumes.com
+- **Author**: thewerlock
 
-[![Build Status](https://scrutinizer-ci.com/g/bitfumes/laravel-multiauth/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bitfumes/laravel-multiauth/build-status/master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bitfumes/laravel-multiauth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bitfumes/laravel-multiauth/?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/69d079cd52b7b2fb94c4/maintainability)](https://codeclimate.com/github/bitfumes/laravel-multiauth/maintainability)
+[![Build Status](https://scrutinizer-ci.com/g/thewerlock/laravel-multiauth/badges/build.png?b=master)](https://scrutinizer-ci.com/g/thewerlock/laravel-multiauth/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/thewerlock/laravel-multiauth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/thewerlock/laravel-multiauth/?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/69d079cd52b7b2fb94c4/maintainability)](https://codeclimate.com/github/thewerlock/laravel-multiauth/maintainability)
 [![StyleCI](https://github.styleci.io/repos/143331251/shield?branch=master)](https://github.styleci.io/repos/143331251)
-[![Total Downloads](https://poser.pugx.org/bitfumes/laravel-multiauth/downloads)](https://packagist.org/packages/bitfumes/laravel-multiauth)
-[![GitHub license](https://img.shields.io/github/license/bitfumes/laravel-multiauth.svg)](https://github.com/bitfumes/laravel-multiauth/blob/master/LICENSE.md)
-[![GitHub stars](https://img.shields.io/github/stars/bitfumes/laravel-multiauth.svg)](https://github.com/bitfumes/laravel-multiauth/stargazers)
-[![Latest Stable Version](https://poser.pugx.org/bitfumes/laravel-multiauth/v/stable)](https://packagist.org/packages/bitfumes/laravel-multiauth)
-[![GitHub issues](https://img.shields.io/github/issues/bitfumes/laravel-multiauth.svg)](https://github.com/bitfumes/laravel-multiauth/issues)
+[![Total Downloads](https://poser.pugx.org/thewerlock/laravel-multiauth/downloads)](https://packagist.org/packages/thewerlock/laravel-multiauth)
+[![GitHub license](https://img.shields.io/github/license/thewerlock/laravel-multiauth.svg)](https://github.com/thewerlock/laravel-multiauth/blob/master/LICENSE.md)
+[![GitHub stars](https://img.shields.io/github/stars/thewerlock/laravel-multiauth.svg)](https://github.com/thewerlock/laravel-multiauth/stargazers)
+[![Latest Stable Version](https://poser.pugx.org/thewerlock/laravel-multiauth/v/stable)](https://packagist.org/packages/thewerlock/laravel-multiauth)
+[![GitHub issues](https://img.shields.io/github/issues/thewerlock/laravel-multiauth.svg)](https://github.com/thewerlock/laravel-multiauth/issues)
 
 This package is just create admin side (multi auth), which is totaly isolated from your normal auth ( which we create using php artisan make:auth )
 
@@ -23,19 +22,19 @@ in as a user and an admin, without conflicts!
 
 | Laravel version | Branch | Install                                               |
 | --------------- | ------ | ----------------------------------------------------- |
-| 5.4             | 5.4    | composer require bitfumes/laravel-multiauth:5.4.x-dev |
-| 5.5             | 5.5    | composer require bitfumes/laravel-multiauth:5.5.x-dev |
-| 5.6 and 5.7     | Master | composer require bitfumes/laravel-multiauth           |
+| 5.4             | 5.4    | composer require thewerlock/laravel-multiauth:5.4.x-dev |
+| 5.5             | 5.5    | composer require thewerlock/laravel-multiauth:5.5.x-dev |
+| 5.6 and 5.7     | Master | composer require thewerlock/laravel-multiauth           |
 
 ## Installation
 
 Install via composer.
 
 ```bash
-composer require bitfumes/laravel-multiauth
+composer require thewerlock/laravel-multiauth
 ```
 
-Before proceeding : you can make a normal auth, check [this doc](https://github.com/bitfumes/laravel-multiauth#another-auth)
+Before proceeding : you can make a normal auth, check [this doc](https://github.com/thewerlock/laravel-multiauth#another-auth)
 
 Publish Migrations
 
@@ -43,7 +42,7 @@ Publish Migrations
 php artisan vendor:publish --tag="multiauth:migrations"
 ```
 
-Run [the Migration](https://github.com/bitfumes/laravel-multiauth/database/migrations/create_permission_tables.php) to have tables in your database.
+Run [the Migration](https://github.com/thewerlock/laravel-multiauth/database/migrations/create_permission_tables.php) to have tables in your database.
 
 ```bash
 php artisan migrate
