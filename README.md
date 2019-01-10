@@ -199,8 +199,6 @@ If you want to add multiple role, you can do like this
 php artisan multiauth:make {guard}
 ```
 
-After you run this command you will get steps in which files has been added/changed.
-![For Make](https://user-images.githubusercontent.com/41295276/44602450-4a4e2580-a7fd-11e8-858b-cac65c496908.png)
 
 **You can rollback this auth also if you want.**
 
@@ -208,10 +206,5 @@ After you run this command you will get steps in which files has been added/chan
 php artisan multiauth:rollback {guard}
 ```
 
-This command will show you steps to rollback and file that has changed/removed.
-![For Rollback](https://user-images.githubusercontent.com/41295276/44602466-5508ba80-a7fd-11e8-9737-3711baecbbdb.png)
-
 ## License
 
-This package inherits the licensing of its parent framework, Laravel, and as such is open-sourced
-software licensed under the [MIT license](http://opensource.org/licenses/MIT)
